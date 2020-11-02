@@ -10,14 +10,13 @@ package bsu.rfe.java.group8.DaniilShkabara.var11;
  * @author Даня
  */
 
-import javax.swing.JFrame;
-
+import javax.swing.*;
 
 public class Mainclass {
-    public static void main(String args[]){
-  Mainframe frame = new Mainframe(); 
-	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
-	frame.setVisible(true); 
-	} 
+    public static void main(String[]args){
+Mainframe frame=new Mainframe();
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+frame.setVisible(true);
 
+    }
 }
