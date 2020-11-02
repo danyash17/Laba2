@@ -39,6 +39,9 @@ private ButtonGroup radioButtons = new ButtonGroup();
 // Контейнер для отображения радио-кнопок
 private Box hboxFormulaType = Box.createHorizontalBox();
 private int formulaId = 1;
+private double mem1=0;
+private double mem2=0;
+private double mem3=0;
 public double f1(double x,double y,double z){
     return (1/Math.sqrt(x)+Math.cos(Math.exp(y))+Math.cos(z*z))/Math.pow(Math.log((1+z)*(1+z))+Math.sqrt(Math.exp(Math.cos(y))+Math.sin(3.14*x)*Math.sin(3.14*x)), 1/3);
 }

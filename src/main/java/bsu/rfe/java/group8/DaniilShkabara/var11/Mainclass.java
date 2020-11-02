@@ -15,8 +15,9 @@ import javax.swing.JFrame;
 
 public class Mainclass {
     public static void main(String args[]){
-    Mainframe frame = new Mainframe();
-frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-frame.setVisible(true);
-    }
+  Mainframe frame = new Mainframe(); 
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+	frame.setVisible(true); 
+	} 
+
 }
